@@ -1,0 +1,15 @@
+show databases;
+drop database flightmanagement;
+create database flightmanagement;
+use flightmanagement;
+create table demo(id int primary key,name varchar(20),city varchar(25));
+show tables;
+select * from Users;
+create database Userdatabase;
+use Userdatabase;
+
+desc flight;
+select * from flightmanagement.users;
+select * from flightmanagement.users where userid = "1";
+
+insert into users (userid,email,username,userpassword,userphone,usertype) values(2,"cusdemo@gmail.com","cusdemo","cus123",6442934,"customer");
