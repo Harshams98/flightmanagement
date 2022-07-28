@@ -54,8 +54,10 @@ public class Schedule {
 	}
 	@Override
 	public String toString() {
-		return "Schedule [arrivalTime=" + arrivalTime + ", departureTime=" + departureTime + "]";
+		return "Schedule [scheduleId=" + scheduleId + ", sourceAirport=" + sourceAirport + ", destination="
+				+ destination + ", arrivalTime=" + arrivalTime + ", departureTime=" + departureTime + "]";
 	}
+	
 	
 	
 }

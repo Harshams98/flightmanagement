@@ -22,7 +22,6 @@ public class Passenger {
 	private Double luggage;
 
 
-	
 	public Passenger() {
 		super();
 	}
